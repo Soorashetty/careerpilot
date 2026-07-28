@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Upload, Loader2, AlertCircle, CheckCircle2, FileText, Zap, Briefcase, MessageSquare } from 'lucide-react';
 import { useUploadResume } from '../hooks/useApi';
@@ -98,3 +98,4 @@ export default function UploadResume() {
     </div>
   );
 }
+

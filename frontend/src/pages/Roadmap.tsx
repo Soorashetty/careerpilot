@@ -1,4 +1,3 @@
-import React from 'react';
 import { useResume } from '../hooks/useApi';
 
 export default function Roadmap() {
@@ -33,3 +32,4 @@ export default function Roadmap() {
     </div>
   );
 }
+
